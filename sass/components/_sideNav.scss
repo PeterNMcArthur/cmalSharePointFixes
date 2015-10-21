@@ -1,0 +1,41 @@
+#sideNavBox {
+    margin: 0;
+    border-right: solid 1px $border-color;
+    padding: 0 20px;
+    padding-right: 10px;
+    margin-right: 10px;
+    ul.root.ms-core-listMenu-root.static {
+        &>li.static {
+            &> a.menu-item, &> span.menu-item.ms-core-listMenu-item {
+                border-bottom: 1px solid lighten($menu-heading-bg, 90%);
+                background: $menu-heading-bg;
+                color: #FFF;
+                &:hover, &:focus {
+                    background: lighten($menu-heading-bg, 4%);
+                }
+                &:active {
+                    background: darken($menu-heading-bg, 4%);
+                }
+                &.selected {
+                    border-right: solid 4px darken($menu-heading-bg, 10%);
+                }
+            }
+            &> ul.static {
+                background-color: $menu-item-bg;
+                &> li.static {
+                    a.menu-item.ms-core-listMenu-item {
+                        color: $menu-font-color;
+                        padding: 5px 20px;
+                        &.selected {
+                            border-right: solid 4px darken($menu-heading-bg, 10%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ms-core-sideNavBox-removeLeftMargin {
+        margin-left: -20px;
+        margin-right: -10px;
+    }
+}
