@@ -1,0 +1,63 @@
+.ms-wikicontent {
+  padding: 0 !important; }
+  .ms-wikicontent .grid_4 {
+    width: 33.33%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px; }
+  .ms-wikicontent .grid_right, .ms-wikicontent .grid_left, .ms-wikicontent .grid_mid {
+    margin: 0 !important;
+    float: left; }
+    .ms-wikicontent .grid_right::after, .ms-wikicontent .grid_left::after, .ms-wikicontent .grid_mid::after {
+      content: "";
+      clear: both; }
+    .ms-wikicontent .grid_right .ms-webpart-chrome, .ms-wikicontent .grid_left .ms-webpart-chrome, .ms-wikicontent .grid_mid .ms-webpart-chrome {
+      border: none !important; }
+      .ms-wikicontent .grid_right .ms-webpart-chrome .ms-webpart-chrome-title, .ms-wikicontent .grid_left .ms-webpart-chrome .ms-webpart-chrome-title, .ms-wikicontent .grid_mid .ms-webpart-chrome .ms-webpart-chrome-title {
+        background: #0072C6;
+        margin-bottom: 15px;
+        padding: 5px; }
+        .ms-wikicontent .grid_right .ms-webpart-chrome .ms-webpart-chrome-title h2 a span, .ms-wikicontent .grid_right .ms-webpart-chrome .ms-webpart-chrome-title h2 span, .ms-wikicontent .grid_left .ms-webpart-chrome .ms-webpart-chrome-title h2 a span, .ms-wikicontent .grid_left .ms-webpart-chrome .ms-webpart-chrome-title h2 span, .ms-wikicontent .grid_mid .ms-webpart-chrome .ms-webpart-chrome-title h2 a span, .ms-wikicontent .grid_mid .ms-webpart-chrome .ms-webpart-chrome-title h2 span {
+          color: #FFF; }
+  .ms-wikicontent img {
+    max-width: 100% !important; }
+
+.grid_3.grid_right {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 5px;
+  width: 25% !important; }
+  .grid_3.grid_right .ms-rtestate-field a > img {
+    width: 100%;
+    padding: 0 15% 2% 15% !important;
+    box-sizing: border-box; }
+  .grid_3.grid_right .ms-WPBody.noindex img {
+    width: 100%;
+    padding: 15%;
+    box-sizing: border-box; }
+
+.grid_9.grid_left {
+  width: 75% !important; }
+  .grid_9.grid_left .ms-rtestate-read.ms-rte-wpbox .s4-wpcell-plain.ms-webpartzone-cell.ms-webpart-cell-vertical.ms-fullWidth {
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: block; }
+  .grid_9.grid_left > .ms-rtestate-read.ms-rte-wpbox {
+    box-sizing: border-box;
+    padding: 0 10px;
+    border: none !important; }
+    .grid_9.grid_left > .ms-rtestate-read.ms-rte-wpbox > div {
+      border: 1px solid #cccccc; }
+
+#contentBox {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 19px 1%; }
+
+#sideNavBox {
+  display: none; }
+
+table#layoutsTable {
+  max-width: 100% !important; }
+
+/*# sourceMappingURL=cmal.css.map */

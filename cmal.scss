@@ -1,0 +1,84 @@
+@import 'sass/variables/colors';
+
+.ms-wikicontent {
+    padding: 0 !important;
+    .grid_4 {
+        width: 33.33%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 10px;
+    }
+    .grid_right, .grid_left, .grid_mid {
+        margin: 0 !important;
+        float: left;
+        &::after {
+            content: "";
+            clear: both;
+        }
+        .ms-webpart-chrome {
+            border: none !important;
+            .ms-webpart-chrome-title {
+                background: $menu-heading-bg;
+                margin-bottom: 15px;
+                padding: 5px;
+                h2 a span, h2 span {
+                    color: #FFF;
+                }
+            }
+        }
+    }
+    img {
+        max-width: 100% !important;
+    }
+}
+.grid_3.grid_right {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 5px;
+    width: 25% !important;
+    &> div {
+    }
+    .ms-rtestate-field {
+        a > img {
+            width: 100%;
+            padding: 0 15% 2% 15% !important;
+            box-sizing: border-box;
+        }
+    }
+    .ms-WPBody.noindex {
+        img {
+            width: 100%;
+            padding: 15%;
+            box-sizing: border-box;
+        }
+    } 
+}
+.grid_9.grid_left {
+    width: 75% !important;
+    .ms-rtestate-read.ms-rte-wpbox {
+        .s4-wpcell-plain.ms-webpartzone-cell.ms-webpart-cell-vertical.ms-fullWidth  {    
+            padding: 0 15px;
+            box-sizing: border-box;
+            display: block;
+        }
+    }
+    &> .ms-rtestate-read.ms-rte-wpbox {
+        box-sizing: border-box;
+        padding: 0 10px;
+        border: none !important;
+        &> div {
+            border: 1px solid rgb(204, 204, 204);
+        }
+    }
+}
+#contentBox {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 19px 1%;
+}
+#sideNavBox {
+    display: none;
+}
+table#layoutsTable {
+    max-width: 100% !important;
+}
